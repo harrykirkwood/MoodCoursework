@@ -1,0 +1,8 @@
+{
+  "name": "Mood",
+  "version": "1.0.0",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "materialize-css": "^1.0.0"
+  }
+}
