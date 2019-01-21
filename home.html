@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<!--This is the top navigation bar currently used to display the logo. -->
 <nav>
     <div class="nav-wrapper blue-grey darken-4">
         <div class="col s12">
@@ -21,6 +22,20 @@
         </div>
     </div>
 </nav>
+
+<!--This is the fixed floating button. This will be used as a menu to access user settings.-->
+<div class="fixed-action-btn">
+    <a id="scale" class="btn-floating btn-large blue-grey darken-4">
+        <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+        <!--Each element of the account menu has a tooltip to describe what each button does. This is displayed when the user hovers over each button.-->
+        <li><a id="btnsignin" class="btn-floating blue-grey tooltipped" data-position="left" data-tooltip="Sign In"><i class="material-icons">person</i></a></li>
+        <li><a id="btnsignout" class="btn-floating blue-grey disabled tooltipped" data-position="left" data-tooltip="Sign Out"><i class="material-icons">person_outline</i></a></li>
+        <li><a id="btncreateuser" class="btn-floating blue-grey tooltipped" data-position="left" data-tooltip="Create User"><i class="material-icons">person_add</i></a></li>
+        <li><a id="btnmngusers" class="btn-floating blue-grey disabled tooltipped" data-position="left" data-tooltip="Manage Users"><i class="material-icons">people</i></a></li>
+    </ul>
+</div>
 
 <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
 <script type="text/javascript" src="init.js"></script>
